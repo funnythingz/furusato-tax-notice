@@ -13,5 +13,5 @@ module.exports = function(env) {
                 compress: true
             })
         ]
-    })
+    });
 }

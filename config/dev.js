@@ -1,6 +1,6 @@
-var merge = require('webpack-merge');
-var path = require('path');
-var baseConfig = require('./base.js');
+const merge = require('webpack-merge');
+const path = require('path');
+const baseConfig = require('./base.js');
 
 module.exports = function(env) {
     return merge(baseConfig(), {
