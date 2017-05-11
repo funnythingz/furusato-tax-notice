@@ -12641,9 +12641,7 @@ const router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["default"]({
     routes: [{ path: '/', name: 'root', component: __WEBPACK_IMPORTED_MODULE_4_components_Home_vue___default.a }]
 });
 
-const app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
-    router
-}).$mount('#app');
+const app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({ router: router }).$mount('#app');
 
 /***/ }),
 /* 13 */,
