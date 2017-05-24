@@ -3,7 +3,7 @@
   <section>
     <div class="container">
       <h1>
-        <i class="fa fa-gift" aria-hidden="true"></i>
+        <i class="fa fa-search" aria-hidden="true"></i>
         ふるさと納税新着情報
       </h1>
       <template

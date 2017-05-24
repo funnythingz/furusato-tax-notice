@@ -6,6 +6,7 @@ Vue.use(VueRouter)
 import HeaderVue from 'components/Header.vue'
 import FooterVue from 'components/Footer.vue'
 import HomeVue from 'components/Home.vue'
+import AboutVue from 'components/About.vue'
 
 Vue.component('header-view', HeaderVue);
 Vue.component('footer-view', FooterVue);
@@ -13,6 +14,7 @@ Vue.component('footer-view', FooterVue);
 const router = new VueRouter({
     routes: [
         { path: '/', name: 'root', component: HomeVue },
+        { path: '/about', name: 'about', component: AboutVue }
     ]
 })
 

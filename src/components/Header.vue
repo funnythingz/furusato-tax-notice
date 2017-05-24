@@ -9,16 +9,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="logo" href="#"><span class="logo-text">ふるさと納税情報サイト</span></a>
+          <router-link :to="{name: 'root'}" class="logo">
+            <span class="logo-text">
+              <i class="fa fa-gift" aria-hidden="true"></i>
+              ふるさと納税情報サイト
+            </span>
+          </router-link>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#">
+              <router-link :to="{name: 'about'}">
                 <i class="fa fa-info-circle" aria-hidden="true"></i>
-                about
-              </a>
+                About
+              </router-link>
             </li>
           </ul>
         </div>
