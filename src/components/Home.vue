@@ -2,7 +2,7 @@
 
   <section>
     <div class="container">
-      <h1>
+      <h1 class="h3">
         <i class="fa fa-search" aria-hidden="true"></i>
         ふるさと納税新着情報
       </h1>
@@ -12,7 +12,7 @@
         >
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h1 class="h3">
+            <h1 class="h4">
               <a :href="item.link">
                 {{item.author}}
                 <small>
