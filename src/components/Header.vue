@@ -9,12 +9,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="logo" href="#"><span class="logo-text">logo</span></a>
+          <a class="logo" href="#"><span class="logo-text">ふるさと納税情報サイト</span></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">about</a></li>
+            <li>
+              <a href="#">
+                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                about
+              </a>
+            </li>
           </ul>
         </div>
       </div>
