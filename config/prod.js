@@ -9,9 +9,9 @@ module.exports = function(env) {
             filename: '[name].prod.js'
         },
         plugins: [
-            //new UglifyJSPlugin({
-            //    compress: true
-            //})
+            new UglifyJSPlugin({
+                compress: true
+            })
         ]
     });
 }
